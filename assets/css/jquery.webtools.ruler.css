@@ -1,0 +1,90 @@
+/* -------- rulers -------- */
+
+.ruler {
+    display: inline-block;
+    font-size: 16pt;
+    height: 18px;
+    text-align: center;
+    width: 19px;
+}
+
+#ruler-container {
+    position: absolute;
+    overflow: hidden;
+}
+
+#ruler-spacer {
+    float: left;
+    height: 15px;
+    width: 15px;
+}
+#ruler-x {
+    background-image: url('../images/ruler-x.png');
+    background-repeat: repeat-x;
+    height: 15px;
+    width: 100%;
+}
+
+#ruler-y {
+    background-image: url('../images/ruler-y.png');
+    background-repeat: repeat-y;
+    float: left;
+    height: 100%;
+    width: 15px;
+}
+
+#ruler-coords {
+    display: inline;
+    left: 25px;
+    position: absolute;
+    padding: 2px 8px;
+    top: 25px;
+}
+
+#ruler-dimentions {
+    display: inline;
+    bottom: 10px;
+    position: absolute;
+    padding: 2px 8px;
+    right: 10px;
+}
+
+/* ------- Sprites -------- */
+
+.ruler.smbtn {
+    background: url("../images/sprite.png") center center;
+    background-position: -176px -76px;
+}
+
+.ruler.smbtn:active {
+    background-position: -176px -94px;
+}
+
+
+.rulercolor.red {
+    background-color: #e67373;
+}
+
+.rulercolor.orange {
+    background-color: #e6ac72;
+}
+
+.rulercolor.yellow {
+    background-color: #e6e273;
+}
+
+.rulercolor.green {
+    background-color: #73e673;
+}
+
+.rulercolor.blue {
+    background-color: #7373e6;
+}
+
+.rulercolor.purple {
+    background-color: #e673e2;
+}
+
+.rulercolor.gray {
+    background-color: #e6e6e6;
+}
